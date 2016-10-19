@@ -1,0 +1,31 @@
+<div id="spree-header">
+  <header id="header" data-hook>
+    <div class="container">
+      <div class="row">
+        <figure id="logo" class="col-md-2 col-sm-3" data-hook>
+          <%= logo %>
+        </figure>
+	<span class="beta-text nav navbar-nav navbar-left">BETA</span>
+	<style>.beta-text {
+        display: block;
+    background-color: #ffc000;
+    color: #090e19;
+    border-radius: 2px;
+    padding: 2px 2px 1px;
+    font-weight: 700;
+    line-height: 1;
+    font-size: 9px;
+    position: relative;
+    top: 25px;
+    left: -17px;
+}
+}}</style>
+        <%= render :partial => 'spree/shared/nav_bar' %>
+      </div>
+    </div>
+  </header>
+  <div class="container">
+    <%= render :partial => 'spree/shared/main_nav_bar' if store_menu? %>
+  </div>
+</div>
+
