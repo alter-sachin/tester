@@ -37,3 +37,11 @@ h1.product-title {
 #breadcrumbs a {
     color: #891111;
 }
+
+
+.add-to-cart .input-group-btn {
+    left: -19%;
+    width: 68%;
+    background: #262626;
+    text-align: center;
+}
