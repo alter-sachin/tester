@@ -45,3 +45,8 @@ h1.product-title {
     background: #262626;
     text-align: center;
 }
+
+
+#quantity {
+    width: 33%;
+}
