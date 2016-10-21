@@ -41,7 +41,7 @@ font-family: 'Playfair Display';
 
 .lead {
     font-size: 18px;
-    color: #de0000;
+    color: #3c3333;
 }
 
 .product-section-title {
@@ -80,7 +80,17 @@ font-family: 'Playfair Display';
 }
 
 
+.product-title {
+    margin-bottom: 8px;
+}
 
+.product-section-title {
+    display: none;
+}
+
+.lead.price.selling {
+    font-size: 25px;
+}
 
 
 
