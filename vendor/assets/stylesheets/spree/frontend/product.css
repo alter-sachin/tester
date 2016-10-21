@@ -46,3 +46,15 @@ font-family :'Open Sans';
     font-size: 18px;
 }
 
+.panel-body.text-center.product-body a {
+    text-decoration: none;
+}
+
+.info {
+font-size: 20px;
+line-height: 26px;
+letter-spacing: 0.5px;
+margin-bottom: 11px;
+font-family: 'Playfair Display';
+}
+
