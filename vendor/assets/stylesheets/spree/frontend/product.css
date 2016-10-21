@@ -29,8 +29,10 @@ height : 360px !important;
 
 .product-title{
 font-family: 'Playfair Display';
-
+    margin-bottom: 3px;
+    margin-left: -4px;
 }
+
 
 .well{
 font-family: 'Playfair Display';
