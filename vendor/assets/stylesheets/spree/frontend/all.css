@@ -9,3 +9,32 @@
  *= require_tree .
  *= require spree/frontend/spree_amazon_like_dropdown
 */
+
+
+
+.product-section-title {
+    display: none !important;
+}
+
+.lead.price.selling {
+    color: #463333 !important;
+    font-size: 24px !important;
+}
+
+h1.product-title {
+    font-size: 32px !important;
+    font-family: ;
+    font-family: Verlagbook !important;
+    margin-bottom: 8px !important;
+
+    }
+
+.breadcrumb > li + li::before {
+    content: "| ";
+    padding: 0 5px;
+    color: #262626;
+}
+
+#breadcrumbs a {
+    color: #891111;
+}
