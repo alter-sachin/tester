@@ -29,7 +29,10 @@
       <div data-hook="product_right_part_wrap">
         <div id="product-description" data-hook="product_description">
           <h1 class="product-title" itemprop="name"><%= @product.name %></h1>
-
+		 <span class="lead price selling" itemprop="price" style="font-size: 18px;
+color: #d93934;">
+              <%= display_price(@product) %>
+            </span>
          
 
           <div id="cart-form" data-hook="cart_form">
