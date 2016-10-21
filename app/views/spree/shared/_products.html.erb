@@ -34,7 +34,8 @@
 		  <%= link_to url, itemprop: "url" do %>		
 		<%= content_tag(:span, truncate(product.name, length: 50), class: 'info', itemprop: "name", title: product.name) %>
 		 <% end %>
-              <span itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+		<br/>
+              	<span itemprop="offers" itemscope itemtype="https://schema.org/Offer">
                 <span class="price selling lead" itemprop="price"><%= display_price(product) %></span>
               </span>
             </div>
