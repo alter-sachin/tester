@@ -50,3 +50,8 @@ h1.product-title {
 #quantity {
     width: 33%;
 }
+
+img {
+max-width:100%;
+height:auto;
+}
