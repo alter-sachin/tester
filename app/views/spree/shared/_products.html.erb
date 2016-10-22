@@ -37,6 +37,9 @@
 		<br/>
               	<span itemprop="offers" itemscope itemtype="https://schema.org/Offer">
                 <span class="price selling lead" itemprop="price"><%= display_price(product) %></span>
+		<span class="baker-name" data-hook="product_taxons">
+          <%= render :partial => 'taxons' %>
+        </span>
               </span>
             </div>
           <% end %>
