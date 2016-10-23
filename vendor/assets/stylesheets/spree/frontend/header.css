@@ -1,11 +1,17 @@
 #spree-header #header  {
-    background: #262626;
+    background: #fff;
     padding: 6px;
+    border-bottom: 1px solid red;
+
 }
 
 #spree-header {
 margin-bottom :0px;
 
+}
+
+#spree-header .nav a{
+color:#091b0f;
 }
 
 #spree-header #logo {
