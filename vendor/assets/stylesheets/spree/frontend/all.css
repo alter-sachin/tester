@@ -59,3 +59,20 @@ height:auto;
 #spree-header #logo img {
     width: auto !important;
 }
+
+
+#taxonomies_taxons_tree {
+	width:100% !important;
+}
+
+.popover {
+    left: 300px !important;
+}
+
+.taxonomy-root {
+	margin-left:20px;
+}
+
+.panel-default .price.selling.lead {
+    font-size: 110%;
+}
