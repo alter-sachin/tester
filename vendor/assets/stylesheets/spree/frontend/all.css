@@ -82,3 +82,9 @@ height:auto;
 .list-group {
 list-style:none;
 }
+
+variant-description {
+    position: relative;
+    top: -4px;
+    font-size: 18px;
+}
