@@ -11,6 +11,12 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
+    # Routes to static pages are defined with simple, unparameterized rules
+  # Syntax: verb 'path', to: 'controller#action'
+  get '/terms', to: 'static#terms'
+  get '/policy',to: 'static#policy'
+  get '/about', to: 'static#about'
+  get '/contact', to: 'static#contact'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
