@@ -13,8 +13,8 @@ Rails.application.routes.draw do
   # root 'welcome#index'
     # Routes to static pages are defined with simple, unparameterized rules
   # Syntax: verb 'path', to: 'controller#action'
-  get '/static//terms', to: 'static#terms' , as:"terms"
-  get '/static/policy',to: 'static#policy',as:"policy"
+  get '/static/terms', to: 'static#terms' , as:"terms"
+  get '/static/privacy',to: 'static#privacy',as:"privacy"
   get '/static/about', to: 'static#about',as:"about"
   get '/static/contact', to: 'static#contact',as:"contact"
 
