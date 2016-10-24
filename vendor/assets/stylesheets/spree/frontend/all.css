@@ -11,11 +11,6 @@
 */
 
 
-
-.product-section-title {
-    display: none !important;
-}
-
 .lead.price.selling {
     color: #463333 !important;
     font-size: 24px !important;
@@ -34,8 +29,14 @@ h1.product-title {
     color: #262626;
 }
 
+.breadcrumb {
+background:#fff !important;
+}
+
 #breadcrumbs a {
-    color: #891111;
+    color: #E90101CC;
+    font-size: 110%;
+    font-family: Verlagbook;
 }
 
 
@@ -76,4 +77,8 @@ height:auto;
 .panel-default .price.selling.lead {
     font-size: 110% !important;
     color: #e90202 !important;
+}
+
+.list-grouop {
+list-style:none;
 }
