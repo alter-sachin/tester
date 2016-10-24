@@ -31,6 +31,8 @@ gem 'spree_gateway', '~> 3.1.0'
 
 
 gem 'spree_amazon_like_dropdown', github: 'alter-sachin/spree_amazon_like_dropdown'
+
+gem 'spree_mail_settings', github: 'spree-contrib/spree_mail_settings', branch: '3-1-stable'
 # Use Unicorn as the app server
 # gem 'unicorn'
 
