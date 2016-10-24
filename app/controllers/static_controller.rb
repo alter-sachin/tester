@@ -1,11 +1,11 @@
-class StaticPagesController < ApplicationController
+class StaticController < ApplicationController
 
   # You can leave the mission method blank, it will render
   # the corresponding static_pages/mission.html.erb by default
 
   def terms
   end
-  def policy
+  def privacy
   end
   def about
   end
