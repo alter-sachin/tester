@@ -29,10 +29,13 @@ gem 'spree', '~> 3.1.0'
 gem 'spree_auth_devise', '~> 3.1.0'
 gem 'spree_gateway', '~> 3.1.0'
 
-
+gem 'spree_social', github: 'spree-contrib/spree_social', branch: '3-1-stable'
 gem 'spree_amazon_like_dropdown', github: 'alter-sachin/spree_amazon_like_dropdown'
 
 gem 'spree_mail_settings', github: 'spree-contrib/spree_mail_settings', branch: '3-1-stable'
+gem 'spree_social_products', github: 'spree-contrib/spree_social_products', branch: 'master'
+
+#gem "spree_product_zoom", :git => "git://github.com/spree/spree_product_zoom.git"
 # Use Unicorn as the app server
 # gem 'unicorn'
 

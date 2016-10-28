@@ -10,3 +10,4 @@
 
 //= require_tree .
 //= require spree/backend/spree_amazon_like_dropdown
+//= require spree/backend/spree_social_products
