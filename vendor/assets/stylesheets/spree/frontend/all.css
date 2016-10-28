@@ -94,3 +94,13 @@ variant-description {
 #products {
 margin-top :20px;
 }
+
+.nav-bar {
+min-height :1px !important;
+}
+
+.navbar-toggle {
+right: 1%;
+    top: -50px;
+}
+
