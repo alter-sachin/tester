@@ -12,4 +12,4 @@
 //= require spree/frontend/spree_auth
 //= require spree/frontend/spree_amazon_like_dropdown
 //= require spree/frontend/spree_social_products
-//= require spree/product_zoom
+
