@@ -1,12 +1,11 @@
-<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#wrapme">
+<nav class="navbar col-md-10 col-sm-9" id="top-nav-bar">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
         <span class="icon-bar" style="background-color:#db423d;"></span>
         <span class="icon-bar" style="background-color:#db423d;"></span>
         <span class="icon-bar" style="background-color:#db423d;"></span> 
-      </button>
-<div id="wrapme">
-<nav class="navbar col-md-10 col-sm-9" id="top-nav-bar">
-
-  <ul id="nav-bar" class="navbar-collapse collapse  nav navbar-nav navbar-right" data-hook>
+</button>
+<div class="collapse navbar-collapse" id="mynavbar">
+  <ul id="nav-bar" class="nav navbar-nav navbar-right " data-hook>
     <li id="search-bar" data-hook>
       <%= render :partial => 'spree/shared/search' %>
     </li>
@@ -20,3 +19,4 @@
   </ul>
 </nav>
 </div>
+
