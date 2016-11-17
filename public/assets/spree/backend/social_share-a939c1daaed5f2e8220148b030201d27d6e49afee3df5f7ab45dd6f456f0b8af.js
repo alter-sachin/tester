@@ -1,0 +1,1 @@
+(function(){$(document).ready(function(){var o,n;n=$("#facebook_options"),n.length>0&&(o=function(){1===$('input[id="facebook_button"]:checked').length?n.show():n.hide()},o(),$("#facebook_button").on("change",o))})}).call(this);

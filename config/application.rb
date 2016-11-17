@@ -20,6 +20,9 @@ module Hola1
         Rails.configuration.cache_classes ? require(c) : load(c)
       end
     end
+     config.after_initialize do |app|
+     app.config.spree.payment_methods << Spree::BillingIntegration::Payu
+   end
 
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
