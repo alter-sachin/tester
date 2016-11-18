@@ -9,7 +9,7 @@
   </center>
 
   <div>
-    <% payment_service_for @payment.number, credential1: Rails.application.secrets.payu_key, amount: @order.total.to_s, service: :payu_in, credential2: Rails.application.secrets.payu_secret, html: { id: 'payment-form' } do |service| %>
+    <% payment_service_for @payment.number, Rails.application.secrets.payu_key, amount: @order.total.to_s, service: :payu_in, credential2: Rails.application.secrets.payu_secret, html: { id: 'payment-form' } do |service| %>
       <% service.description @order.number %>
       <% service.customer first_name: @order.billing_address.firstname, :phone => @order.billing_address.phone, :email => @order.email %>
     <% end %>
