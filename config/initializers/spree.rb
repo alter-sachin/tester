@@ -28,5 +28,5 @@ end
 
 
 Rails.application.config.spree.payment_methods << Spree::BillingIntegration::Payu
-Rails.application.secrets.payu_key: j3B8O3
-Rails.application.secrets.payu_secret: ngjY0BdZ
+Rails.application.secrets.payu_key = j3B8O3
+Rails.application.secrets.payu_secret = ngjY0BdZ
